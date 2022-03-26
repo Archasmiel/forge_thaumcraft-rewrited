@@ -1,0 +1,16 @@
+{
+  "itemGroup.thaumcraft": "Таумкрафт",
+
+  "item.thaumcraft.thaumonomicon": "Таумономикон",
+  "item.thaumcraft.primal_charm": "Сингулярный амулет",
+
+  "item.thaumcraft.cap.cap_copper": "Медный наконечник",
+  "item.thaumcraft.cap.cap_gold": "Золотой наконечник",
+  "item.thaumcraft.cap.cap_iron": "Железный наконечник",
+  "item.thaumcraft.cap.cap_silver": "Заряженный серебряный наконечник",
+  "item.thaumcraft.cap.cap_silver_inert": "Инертный серебряный наконечник",
+  "item.thaumcraft.cap.cap_thaumium": "Заряженный таум-наконечник",
+  "item.thaumcraft.cap.cap_thaumium_inert": "Инертный таум-наконечник",
+  "item.thaumcraft.cap.cap_void": "Заряженный пустотный наконечник",
+  "item.thaumcraft.cap.cap_void_inert": "Инертный пустотный наконечник"
+}

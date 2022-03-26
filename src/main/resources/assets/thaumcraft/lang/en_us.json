@@ -1,0 +1,16 @@
+{
+  "itemGroup.thaumcraft": "Thaumcraft",
+
+  "item.thaumcraft.thaumonomicon": "Thaumonomicon",
+  "item.thaumcraft.primal_charm": "Primal Charm",
+
+  "item.thaumcraft.cap.cap_copper": "Copper Cap",
+  "item.thaumcraft.cap.cap_gold": "Gold Cap",
+  "item.thaumcraft.cap.cap_iron": "Iron Cap",
+  "item.thaumcraft.cap.cap_silver": "Charged Silver Cap",
+  "item.thaumcraft.cap.cap_silver_inert": "Inert Silver Cap",
+  "item.thaumcraft.cap.cap_thaumium": "Charged Thaumium Cap",
+  "item.thaumcraft.cap.cap_thaumium_inert": "Inert Thaumium Cap",
+  "item.thaumcraft.cap.cap_void": "Charged Void Cap",
+  "item.thaumcraft.cap.cap_void_inert": "Inert Void Cap"
+}
