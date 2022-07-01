@@ -41,7 +41,7 @@ public class Thaumcraft
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        LOGGER.info(MOD_NAME + "setup started!");
+        LOGGER.info(MOD_NAME + " setup started!");
     }
 
 }
