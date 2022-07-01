@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]] #mandatory
 
-modId="thaumcraft4rewrited" #mandatory
+modId="thaumcraft" #mandatory
 version="0.0.1-1.18.2" #mandatory
 displayName="Thaumcraft 4 Rewrited" #mandatory
 logoFile="example.png" #optional
@@ -15,14 +15,14 @@ description='''
 Rewrited version of popular magic mod from 1.7.10.
 '''
 
-[[dependencies.thaumcraft4rewrited]] #optional
+[[dependencies.thaumcraft]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="[40,)" #mandatory
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.thaumcraft4rewrited]]
+[[dependencies.thaumcraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,1.19)"

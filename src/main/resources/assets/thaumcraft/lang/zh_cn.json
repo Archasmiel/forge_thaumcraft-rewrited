@@ -1,0 +1,132 @@
+{
+  "itemGroup.thaumcraftTab": "§5神秘时代4：重置",
+
+  "gui.thaumcraft.basics_tab":  "基础学",
+  "gui.thaumcraft.thaumaturgy_tab": "神秘学",
+  "gui.thaumcraft.alchemy_tab":  "炼金术",
+  "gui.thaumcraft.artifice_tab": "炼化术",
+  "gui.thaumcraft.golemancy_tab":  "傀儡学",
+  "gui.thaumcraft.eldritch_tab": "邪术学",
+
+  "advancements.journey.root.title": "§5神秘时代",
+  "advancements.journey.root.description": "让我们来制作一把法杖！但先要做一个工作台",
+  "advancements.journey.paper_gathering.title": "研究...",
+  "advancements.journey.paper_gathering.description": "...需要大量的纸",
+  "advancements.journey.scribing_tools.title": "作划时间...",
+  "advancements.journey.scribing_tools.description": "来整点空瓶子，用羽毛和墨囊就好",
+
+  "item.thaumcraft.thaumonomicon": "§6魔导手册",
+  "item.thaumcraft.thaumonomicon_cheat": "§6作弊者魔导手册",
+  "item.thaumcraft.crimson_rites": "§6血腥意识",
+  "item.thaumcraft.primal_charm": "元始魔力",
+
+  "item.thaumcraft.shard_air": "风之碎片",
+  "item.thaumcraft.shard_fire": "火之碎片",
+  "item.thaumcraft.shard_water": "水之碎片",
+  "item.thaumcraft.shard_earth": "地之碎片",
+  "item.thaumcraft.shard_order": "秩序碎片",
+  "item.thaumcraft.shard_entropy": "混乱碎片",
+  "item.thaumcraft.shard_balanced": "平衡碎片",
+
+  "item.thaumcraft.amber": "琥珀",
+  "item.thaumcraft.ingot_thaumium": "神秘锭",
+  "item.thaumcraft.ingot_void_metal": "虚空金属锭",
+  "item.thaumcraft.ingot_quicksilver": "水银",
+  "item.thaumcraft.nugget_thaumium": "神秘粒",
+  "item.thaumcraft.void_seed": "虚空种子",
+  "item.thaumcraft.nugget_void_metal": "虚空金属粒",
+  "item.thaumcraft.nugget_quicksilver": "水银滴",
+
+  "item.thaumcraft.tallow": "魔力油脂",
+  "item.thaumcraft.cloth": "魔力布匹",
+  "item.thaumcraft.filter": "源质滤管",
+  "item.thaumcraft.knowledge_fragment": "知识碎片",
+  "item.thaumcraft.mirror_glass": "镜面玻璃",
+  "item.thaumcraft.taint_slime": "腐化粘浆",
+  "item.thaumcraft.taint_tendril": "腐化触手",
+  "item.thaumcraft.salis_mundus": "世界盐",
+
+
+  "item.thaumcraft.nitor": "闪耀之光",
+  "item.thaumcraft.alumentum": "源动之焰",
+
+  "item.thaumcraft.cap_copper": "铜杖端",
+  "item.thaumcraft.cap_gold": "金杖端",
+  "item.thaumcraft.cap_iron": "铁杖端",
+  "item.thaumcraft.cap_silver": "充能银杖端",
+  "item.thaumcraft.cap_silver_inert": "惰性银杖端",
+  "item.thaumcraft.cap_thaumium": "充能神秘杖端",
+  "item.thaumcraft.cap_thaumium_inert": "惰性神秘杖端",
+  "item.thaumcraft.cap_void": "充能虚空金属杖端",
+  "item.thaumcraft.cap_void_inert": "惰性虚空金属杖端",
+
+  "item.thaumcraft.wand_rod_blaze": "烈焰杖柄",
+  "item.thaumcraft.wand_rod_bone": "骨杖柄",
+  "item.thaumcraft.wand_rod_greatwood": "宏伟之木杖柄",
+  "item.thaumcraft.wand_rod_ice": "冰杖柄",
+  "item.thaumcraft.wand_rod_obsidian": "黑曜石杖柄",
+  "item.thaumcraft.wand_rod_quartz": "石英杖柄",
+  "item.thaumcraft.wand_rod_reed": "甘蔗杖柄",
+  "item.thaumcraft.wand_rod_silverwood": "银树杖柄",
+
+  "item.thaumcraft.staff_rod_blaze": "烈焰杖芯",
+  "item.thaumcraft.staff_rod_bone": "骨杖芯",
+  "item.thaumcraft.staff_rod_greatwood": "宏伟之木杖芯",
+  "item.thaumcraft.staff_rod_ice": "冰杖芯",
+  "item.thaumcraft.staff_rod_obsidian": "黑曜石杖芯",
+  "item.thaumcraft.staff_rod_quartz": "石英杖芯",
+  "item.thaumcraft.staff_rod_reed": "甘蔗杖芯",
+  "item.thaumcraft.staff_rod_silverwood": "银树杖芯",
+  "item.thaumcraft.staff_rod_primal": "元始杖芯",
+
+  "item.thaumcraft.thaumium_sword": "神秘剑",
+  "item.thaumcraft.thaumium_pickaxe": "神秘镐",
+  "item.thaumcraft.thaumium_axe": "神秘斧",
+  "item.thaumcraft.thaumium_shovel": "神秘锹",
+  "item.thaumcraft.thaumium_hoe": "神秘锄",
+
+  "item.thaumcraft.voidmetal_sword": "虚空金属剑",
+  "item.thaumcraft.voidmetal_pickaxe": "虚空金属镐",
+  "item.thaumcraft.voidmetal_axe": "虚空金属斧",
+  "item.thaumcraft.voidmetal_shovel": "虚空金属锹",
+  "item.thaumcraft.voidmetal_hoe": "虚空金属锄",
+
+  "item.thaumcraft.inkwell": "笔与墨",
+  "item.thaumcraft.label": "标签",
+  "item.thaumcraft.bottle_taint": "腐化瓶",
+  "item.thaumcraft.coin": "金币",
+
+
+
+  "block.thaumcraft.arcane_workbench": "奥术工作台",
+  "block.thaumcraft.deconstruction_table": "解构工作台",
+  "block.thaumcraft.table": "神秘工作台",
+
+
+
+
+  "wand_type.thaumcraft.wand": "Wand",
+  "wand_type.thaumcraft.scepter": "Scepter",
+  "wand_type.thaumcraft.staff": "Staff",
+
+  "wand_cap.thaumcraft.copper": "Copper capped",
+  "wand_cap.thaumcraft.silver": "Silver capped",
+  "wand_cap.thaumcraft.iron": "Iron capped",
+  "wand_cap.thaumcraft.gold": "Gold capped",
+  "wand_cap.thaumcraft.thaumium": "Thaumium capped",
+  "wand_cap.thaumcraft.void": "Void capped",
+
+  "wand_rod.thaumcraft.wood": "Wood",
+  "wand_rod.thaumcraft.blaze": "Blazing",
+  "wand_rod.thaumcraft.bone": "Bone",
+  "wand_rod.thaumcraft.greatwood": "Greatwood",
+  "wand_rod.thaumcraft.ice": "Icy",
+  "wand_rod.thaumcraft.obsidian": "Obsidian",
+  "wand_rod.thaumcraft.quartz": "Quartz",
+  "wand_rod.thaumcraft.reed": "Reed",
+  "wand_rod.thaumcraft.silverwood": "Silverwood",
+  "wand_rod.thaumcraft.primal": "Primal",
+
+  "gui.thaumcraft.wand_capacity": "Capacity ",
+  "gui.thaumcraft.vis_cost": " vis cost"
+}
