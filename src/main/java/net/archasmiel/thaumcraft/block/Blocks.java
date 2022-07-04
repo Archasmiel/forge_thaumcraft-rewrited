@@ -1,6 +1,9 @@
 package net.archasmiel.thaumcraft.block;
 
 import net.archasmiel.thaumcraft.Thaumcraft;
+import net.archasmiel.thaumcraft.block.blocks.ArcaneWorkbench;
+import net.archasmiel.thaumcraft.block.blocks.DeconstructionTable;
+import net.archasmiel.thaumcraft.block.blocks.Table;
 import net.archasmiel.thaumcraft.item.Items;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +20,8 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class Blocks {
+
+    public static final BlockBehaviour.Properties WOODEN_BLOCK_SETTINGS = BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD);
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Thaumcraft.MOD_ID);
 
@@ -44,7 +49,7 @@ public class Blocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab) {
-        return Items.ITEMS.register(
+        return Items.registerItem(
             name,
             () -> new BlockItem(block.get(), new Item.Properties().tab(tab))
         );
@@ -54,44 +59,10 @@ public class Blocks {
 
 
 
-    private static void registerDefaultBlocks() {
-        TABLE = registerBlock(
-            "table",
-            () -> new Block(
-                BlockBehaviour.Properties
-                .of(Material.WOOD)
-                .strength(2.0F, 3.0F)
-                .sound(SoundType.WOOD)
-                .requiresCorrectToolForDrops()
-            ),
-            Thaumcraft.MOD_TAB
-        );
-    }
-
-    private static void registerFunctionalBlocks() {
-        ARCANE_WORKBENCH = registerBlock(
-            "arcane_workbench",
-            () -> new Block(
-                BlockBehaviour.Properties
-                .of(Material.WOOD)
-                .strength(2.0F, 3.0F)
-                .sound(SoundType.WOOD)
-                .requiresCorrectToolForDrops()
-            ),
-            Thaumcraft.MOD_TAB
-        );
-
-        DECONSTRUCTION_TABLE = registerBlock(
-            "deconstruction_table",
-            () -> new Block(
-                BlockBehaviour.Properties
-                .of(Material.WOOD)
-                .strength(2.0F, 3.0F)
-                .sound(SoundType.WOOD)
-                .requiresCorrectToolForDrops()
-            ),
-            Thaumcraft.MOD_TAB
-        );
+    private static void registerBlocks() {
+        TABLE = registerBlock("table", () -> new Table(WOODEN_BLOCK_SETTINGS), Thaumcraft.MOD_TAB);
+        ARCANE_WORKBENCH = registerBlock("arcane_workbench", () -> new ArcaneWorkbench(WOODEN_BLOCK_SETTINGS), Thaumcraft.MOD_TAB);
+        DECONSTRUCTION_TABLE = registerBlock("deconstruction_table", () -> new DeconstructionTable(WOODEN_BLOCK_SETTINGS), Thaumcraft.MOD_TAB);
     }
 
 
@@ -99,8 +70,7 @@ public class Blocks {
 
 
     public static void register(IEventBus eventBus) {
-        registerDefaultBlocks();
-        registerFunctionalBlocks();
+        registerBlocks();
         BLOCKS.register(eventBus);
     }
 

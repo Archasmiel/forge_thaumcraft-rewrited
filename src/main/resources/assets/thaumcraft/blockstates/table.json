@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "thaumcraft:block/table" }
+    "facing=north": { "model": "thaumcraft:block/table" },
+    "facing=east": { "model": "thaumcraft:block/table", "y": 90 },
+    "facing=south": { "model": "thaumcraft:block/table", "y": 180 },
+    "facing=west": { "model": "thaumcraft:block/table", "y": 270 }
   }
 }

@@ -7,7 +7,7 @@ license="MIT License"
 modId="thaumcraft" #mandatory
 version="0.0.1-1.18.2" #mandatory
 displayName="Thaumcraft 4 Rewrited" #mandatory
-logoFile="example.png" #optional
+logoFile="logo.png" #optional
 credits="Thanks for this example mod goes to Java" #optional
 
 authors="Archasmiel" #optional
